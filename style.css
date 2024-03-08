@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.container a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.top {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top left a {
+  background-color: red;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.top right .icons {
+  background-color: brown;
+  text-decoration: none;
+  display: flex;
+}
+
+.bankbtb iframe {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+}
